@@ -1549,7 +1549,7 @@
     (uuid 10e528d8-0539-4f56-b179-694047fd1203)
     (property "Reference" "SW1" (id 0) (at 260.35 78.74 0))
     (property "Value" "pb1" (id 1) (at 260.35 81.28 0))
-    (property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" (id 2) (at 260.35 88.9 0)
+    (property "Footprint" "Button_Switch_THT:SW_Tactile_SKHH_Angled" (id 2) (at 260.35 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 260.35 88.9 0)
@@ -1640,7 +1640,7 @@
     (uuid 3e4dfc20-dde8-4357-85d4-9f16e3a1152a)
     (property "Reference" "SW2" (id 0) (at 260.35 88.9 0))
     (property "Value" "pb2" (id 1) (at 260.35 91.44 0))
-    (property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" (id 2) (at 260.35 99.06 0)
+    (property "Footprint" "Button_Switch_THT:SW_Tactile_SKHH_Angled" (id 2) (at 260.35 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 260.35 99.06 0)
@@ -1935,7 +1935,7 @@
     (uuid e7065683-54d8-46fa-9cad-dbded39d791a)
     (property "Reference" "SW3" (id 0) (at 260.35 100.33 0))
     (property "Value" "pb3" (id 1) (at 260.35 102.87 0))
-    (property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" (id 2) (at 260.35 110.49 0)
+    (property "Footprint" "Button_Switch_THT:SW_Tactile_SKHH_Angled" (id 2) (at 260.35 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 260.35 110.49 0)
@@ -2102,13 +2102,13 @@
       (reference "R4") (unit 1) (value "69") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/10e528d8-0539-4f56-b179-694047fd1203"
-      (reference "SW1") (unit 1) (value "pb1") (footprint "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx")
+      (reference "SW1") (unit 1) (value "pb1") (footprint "Button_Switch_THT:SW_Tactile_SKHH_Angled")
     )
     (path "/3e4dfc20-dde8-4357-85d4-9f16e3a1152a"
-      (reference "SW2") (unit 1) (value "pb2") (footprint "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx")
+      (reference "SW2") (unit 1) (value "pb2") (footprint "Button_Switch_THT:SW_Tactile_SKHH_Angled")
     )
     (path "/e7065683-54d8-46fa-9cad-dbded39d791a"
-      (reference "SW3") (unit 1) (value "pb3") (footprint "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx")
+      (reference "SW3") (unit 1) (value "pb3") (footprint "Button_Switch_THT:SW_Tactile_SKHH_Angled")
     )
     (path "/084b209c-133e-4f7d-8446-c65e971f927c"
       (reference "U1") (unit 1) (value "MOC3041M") (footprint "Package_DIP:DIP-6_W7.62mm_Socket_LongPads")
