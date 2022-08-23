@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -66,7 +66,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "reflow-oven-v0.1.kicad_prl",
+    "filename": "reflow-oven-v0.4.kicad_prl",
     "version": 3
   },
   "project": {
