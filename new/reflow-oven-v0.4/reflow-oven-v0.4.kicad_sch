@@ -2866,7 +2866,7 @@
     (uuid 1c6659a4-2dea-419c-948f-9f7a5c9928a8)
     (property "Reference" "SW4" (id 0) (at 248.666 41.91 0))
     (property "Value" "SW_MEC_5G_2LED" (id 1) (at 248.666 44.45 0))
-    (property "Footprint" "" (id 2) (at 248.666 64.516 0)
+    (property "Footprint" "My_component:P16-BR7-R1" (id 2) (at 248.666 64.516 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" (id 3) (at 248.666 64.516 0)
@@ -3639,7 +3639,7 @@
       (reference "SW3") (unit 1) (value "pb3") (footprint "Button_Switch_THT:SW_Tactile_SKHH_Angled")
     )
     (path "/1c6659a4-2dea-419c-948f-9f7a5c9928a8"
-      (reference "SW4") (unit 1) (value "SW_MEC_5G_2LED") (footprint "")
+      (reference "SW4") (unit 1) (value "SW_MEC_5G_2LED") (footprint "My_component:P16-BR7-R1")
     )
     (path "/084b209c-133e-4f7d-8446-c65e971f927c"
       (reference "U1") (unit 1) (value "MOC3041M") (footprint "Package_DIP:DIP-6_W7.62mm_Socket_LongPads")
