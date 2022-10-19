@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\guilherme.gutierrez\Documents\reflow-oven-hw\new\reflow-oven-v0.4\reflow-oven-v0.4.kicad_sch</source>
+    <date>19/10/2022 11:39:53</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>reflow-oven-v0.4.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aeb2cd0c-d6db-4835-bde7-af2a781c7be8</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f293c10-a923-4396-9acd-b361d08296e1</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5b3c0cd-d656-442b-a006-f770b77a014f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7ec8780-8771-4df9-a7c6-7f8a6d643345</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BTA40-600B</value>
+      <libsource lib="Device" part="Q_TRIAC_A1A2G" description="Triode for alternating current, anode1/anode2/gate"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cf13d0d-5297-40c3-9595-f41f4be74794</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ae30abe-8d26-4ef5-8c7a-5fd540363e2d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e020ac30-f199-4d3a-bd42-c6ad23c5a09f</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37eb7da2-8bfd-4d50-aab2-655f998e28ba</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>MBED-LPC1768</value>
+      <footprint>Mbed_LPC1768:DIPS2286W63P254L5370H300Q40N</footprint>
+      <datasheet>https://os.mbed.com/platforms/mbed-LPC1768/</datasheet>
+      <fields>
+        <field name="Description">ARM mbed LPC1768 Module</field>
+        <field name="Height">3</field>
+        <field name="Manufacturer_Name">mbed</field>
+        <field name="Manufacturer_Part_Number">MBED-LPC1768</field>
+      </fields>
+      <libsource lib="MBED-LPC1768" part="MBED-LPC1768" description="ARM mbed LPC1768 Module"/>
+      <property name="Description" value="ARM mbed LPC1768 Module"/>
+      <property name="Height" value="3"/>
+      <property name="Manufacturer_Name" value="mbed"/>
+      <property name="Manufacturer_Part_Number" value="MBED-LPC1768"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05082e73-df3c-423e-8be3-09549942260f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Pot</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52ff0e4a-8f2c-4d70-ac94-69d5efc59877</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Display_Nokia5510</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>252443db-92ce-41de-a96f-2c77d991379c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f32b6a8-60fc-4bfb-9911-e849a26e86e6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc866600-bfe2-45b0-8b59-75b9ab76d930</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Pins-max6675</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e56338ad-7181-4df6-b68c-a05bd2443475</tstamps>
+    </comp>
+    <comp ref="Oven-resitance1">
+      <value>Load</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1eb360f7-eab7-4f82-a37a-eaaf6b7851a0</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>XL-007</value>
+      <footprint>My_component:Converter_ACDC_XL007</footprint>
+      <datasheet>https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf</datasheet>
+      <libsource lib="Converter_ACDC" part="RAC01-xxSGB" description="1 Watt Single Output EMC Class B AC/DC power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad14fc5e-c5cd-4472-89ef-b93a7041e8e9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>180</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c91535fb-0186-49c5-ad54-02901a9c4a78</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>360</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c48d8e0-7182-4daa-bf11-ae807c22ed74</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56bf3c6e-2875-4492-ae6d-9423e9bb566c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>69</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25fbaf04-68ba-4128-99c8-430903aa996a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>250</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b32b171f-4eff-49bd-b35e-9817f0e72124</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>250</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70d9f062-0262-44d1-a202-a63bbbd472f6</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b6d9501-e58a-4bc4-aa68-88a2e8c6b7ff</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>KAS2102E</value>
+      <footprint>SW_KAS2102E</footprint>
+      <fields>
+        <field name="MANUFACTURER">E-Switch</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.3 mm</field>
+        <field name="PARTREV">E</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="KAS2102E" part="KAS2102E" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="E"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.3 mm"/>
+      <property name="MANUFACTURER" value="E-Switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95d70007-82d4-4de1-a3b9-c33ba7be6a47</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>pb1</value>
+      <footprint>Button_Switch_THT:SW_Tactile_SKHH_Angled</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10e528d8-0539-4f56-b179-694047fd1203</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>pb2</value>
+      <footprint>Button_Switch_THT:SW_Tactile_SKHH_Angled</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16525151-454e-4414-b377-64c02a3976cd</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>pb3</value>
+      <footprint>Button_Switch_THT:SW_Tactile_SKHH_Angled</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4c60c40-01b4-4a91-b2be-20c11e495e6f</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_MEC_5G_2LED</value>
+      <footprint>My_component:P16-BR7-R1</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G_2LED" description="MEC 5G single pole normally-open illuminated tactile switch with two LEDs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c6659a4-2dea-419c-948f-9f7a5c9928a8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MOC3041M</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm_Socket_LongPads</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MOC3043M-D.pdf</datasheet>
+      <libsource lib="Relay_SolidState" part="MOC3041M" description="Zero Cross Opto-Triac, Vdrm 400V, Ift 15mA, DIP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reflow-oven-v0.4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>084b209c-133e-4f7d-8446-c65e971f927c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Female">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Female">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_ACDC" part="RAC01-xxSGB">
+      <description>1 Watt Single Output EMC Class B AC/DC power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.</description>
+      <docs>https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf</docs>
+      <footprints>
+        <fp>Converter*ACDC*RECOM*RAC01*SGB*THT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">RAC01-xxSGB</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_RECOM_RAC01-xxSGB_THT</field>
+        <field name="Datasheet">https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC(L)" type="power_in"/>
+        <pin num="2" name="AC(N)" type="power_in"/>
+        <pin num="3" name="-Vout" type="power_out"/>
+        <pin num="4" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_TRIAC_A1A2G">
+      <description>Triode for alternating current, anode1/anode2/gate</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Q_TRIAC_A1A2G</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KAS2102E" part="KAS2102E">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">KAS2102E</field>
+        <field name="Footprint">SW_KAS2102E</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">E</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.3 mm</field>
+        <field name="MANUFACTURER">E-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MBED-LPC1768" part="MBED-LPC1768">
+      <description>ARM mbed LPC1768 Module</description>
+      <docs>https://os.mbed.com/platforms/mbed-LPC1768/</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MBED-LPC1768</field>
+        <field name="Footprint">DIPS2286W63P254L5370H300Q40N</field>
+        <field name="Datasheet">https://os.mbed.com/platforms/mbed-LPC1768/</field>
+        <field name="Description">ARM mbed LPC1768 Module</field>
+        <field name="Height">3</field>
+        <field name="Manufacturer_Name">mbed</field>
+        <field name="Manufacturer_Part_Number">MBED-LPC1768</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VIN" type="passive"/>
+        <pin num="3" name="VBAT" type="passive"/>
+        <pin num="4" name="IF_NRESET_EXT" type="passive"/>
+        <pin num="5" name="DIP5" type="passive"/>
+        <pin num="6" name="DIP6" type="passive"/>
+        <pin num="7" name="DIP7" type="passive"/>
+        <pin num="8" name="DIP8" type="passive"/>
+        <pin num="9" name="DIP9" type="passive"/>
+        <pin num="10" name="DIP10" type="passive"/>
+        <pin num="11" name="DIP11" type="passive"/>
+        <pin num="12" name="DIP12" type="passive"/>
+        <pin num="13" name="DIP13" type="passive"/>
+        <pin num="14" name="DIP14" type="passive"/>
+        <pin num="15" name="DIP15" type="passive"/>
+        <pin num="16" name="DIP16" type="passive"/>
+        <pin num="17" name="DIP17" type="passive"/>
+        <pin num="18" name="DIP18" type="passive"/>
+        <pin num="19" name="DIP19" type="passive"/>
+        <pin num="20" name="DIP20" type="passive"/>
+        <pin num="21" name="DIP21" type="passive"/>
+        <pin num="22" name="DIP22" type="passive"/>
+        <pin num="23" name="DIP23" type="passive"/>
+        <pin num="24" name="DIP24" type="passive"/>
+        <pin num="25" name="DIP25" type="passive"/>
+        <pin num="26" name="DIP26" type="passive"/>
+        <pin num="27" name="DIP27" type="passive"/>
+        <pin num="28" name="DIP28" type="passive"/>
+        <pin num="29" name="DIP29" type="passive"/>
+        <pin num="30" name="DIP30" type="passive"/>
+        <pin num="31" name="TGT_D+" type="passive"/>
+        <pin num="32" name="TGT_D-" type="passive"/>
+        <pin num="33" name="TD+" type="passive"/>
+        <pin num="34" name="TD-" type="passive"/>
+        <pin num="35" name="RD+" type="passive"/>
+        <pin num="36" name="RD-" type="passive"/>
+        <pin num="37" name="IF_D+" type="passive"/>
+        <pin num="38" name="IF_D-" type="passive"/>
+        <pin num="39" name="+5V" type="passive"/>
+        <pin num="40" name="EXT_3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="MOC3041M">
+      <description>Zero Cross Opto-Triac, Vdrm 400V, Ift 15mA, DIP6</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MOC3043M-D.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SMDIP*W9.53mm*</fp>
+        <fp>DIP*W10.16mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MOC3041M</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MOC3043M-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_MEC_5G_2LED">
+      <description>MEC 5G single pole normally-open illuminated tactile switch with two LEDs</description>
+      <docs>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</docs>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_MEC_5G_2LED</field>
+        <field name="Datasheet">http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Converter_ACDC">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Converter_ACDC.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="KAS2102E">
+      <uri>C:/Users/guilherme.gutierrez/Desktop/KAS2102E/KAS2102E/KAS2102E.lib</uri>
+    </library>
+    <library logical="Relay_SolidState">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Relay_SolidState.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AC-f">
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Oven-resitance1" pin="1" pintype="passive"/>
+      <node ref="PS1" pin="1" pinfunction="AC(L)" pintype="power_in"/>
+      <node ref="PS1" pin="2" pinfunction="AC(N)" pintype="power_in"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="Analogin-pot">
+      <node ref="IC1" pin="20" pinfunction="DIP20" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="GNDPWR">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="Gnd">
+      <node ref="IC1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="PS1" pin="3" pinfunction="-Vout" pintype="power_out"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="Oven-resitance1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="S1" pin="3" pintype="passive"/>
+    </net>
+    <net code="15" name="VCC">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="40" pinfunction="EXT_3V3" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="S1" pin="4" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="16" name="Vin">
+      <node ref="IC1" pin="2" pinfunction="VIN" pintype="passive"/>
+      <node ref="PS1" pin="4" pinfunction="+Vout" pintype="power_out"/>
+    </net>
+    <net code="17" name="chip_select_lcd">
+      <node ref="IC1" pin="8" pinfunction="DIP8" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="18" name="chip_select_max">
+      <node ref="IC1" pin="18" pinfunction="DIP18" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="19" name="data_command_lcd">
+      <node ref="IC1" pin="10" pinfunction="DIP10" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="20" name="emergency-button">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="27" pinfunction="DIP27" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="gate_triac">
+      <node ref="D1" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="4" pintype="passive"/>
+    </net>
+    <net code="22" name="led-compute">
+      <node ref="IC1" pin="24" pinfunction="DIP24" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="miso_max">
+      <node ref="IC1" pin="6" pinfunction="DIP6" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="24" name="mosi_lcd">
+      <node ref="IC1" pin="11" pinfunction="DIP11" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="25" name="push-button1">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="28" pinfunction="DIP28" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="push-button2">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="29" pinfunction="DIP29" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="push-button3">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="30" pinfunction="DIP30" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="28" name="pwm-interrupt">
+      <node ref="IC1" pin="22" pinfunction="DIP22" pintype="passive"/>
+      <node ref="IC1" pin="23" pinfunction="DIP23" pintype="passive"/>
+    </net>
+    <net code="29" name="pwm-psac">
+      <node ref="IC1" pin="21" pinfunction="DIP21" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="rst_lcd">
+      <node ref="IC1" pin="9" pinfunction="DIP9" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="31" name="sck_lcd">
+      <node ref="IC1" pin="13" pinfunction="DIP13" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="32" name="sck_max">
+      <node ref="IC1" pin="7" pinfunction="DIP7" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="VBAT" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(IC1-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="IF_NRESET_EXT" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(IC1-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="DIP5" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(IC1-Pad12)">
+      <node ref="IC1" pin="12" pinfunction="DIP12" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(IC1-Pad14)">
+      <node ref="IC1" pin="14" pinfunction="DIP14" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(IC1-Pad15)">
+      <node ref="IC1" pin="15" pinfunction="DIP15" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(IC1-Pad16)">
+      <node ref="IC1" pin="16" pinfunction="DIP16" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(IC1-Pad17)">
+      <node ref="IC1" pin="17" pinfunction="DIP17" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(IC1-Pad19)">
+      <node ref="IC1" pin="19" pinfunction="DIP19" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(IC1-Pad25)">
+      <node ref="IC1" pin="25" pinfunction="DIP25" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(IC1-Pad26)">
+      <node ref="IC1" pin="26" pinfunction="DIP26" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(IC1-Pad31)">
+      <node ref="IC1" pin="31" pinfunction="TGT_D+" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(IC1-Pad32)">
+      <node ref="IC1" pin="32" pinfunction="TGT_D-" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(IC1-Pad33)">
+      <node ref="IC1" pin="33" pinfunction="TD+" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(IC1-Pad34)">
+      <node ref="IC1" pin="34" pinfunction="TD-" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(IC1-Pad35)">
+      <node ref="IC1" pin="35" pinfunction="RD+" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(IC1-Pad36)">
+      <node ref="IC1" pin="36" pinfunction="RD-" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(IC1-Pad37)">
+      <node ref="IC1" pin="37" pinfunction="IF_D+" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(IC1-Pad38)">
+      <node ref="IC1" pin="38" pinfunction="IF_D-" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(IC1-Pad39)">
+      <node ref="IC1" pin="39" pinfunction="+5V" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(S1-Pad1)">
+      <node ref="S1" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(S1-Pad2)">
+      <node ref="S1" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(SW4-Pad2)">
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(SW4-Pad3)">
+      <node ref="SW4" pin="3" pinfunction="K" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

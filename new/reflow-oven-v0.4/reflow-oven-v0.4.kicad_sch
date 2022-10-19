@@ -3072,6 +3072,21 @@
     (pin "2" (uuid 824f7c0b-1685-4a6d-bf60-93402db09fe3))
   )
 
+  (symbol (lib_id "Device:R") (at 236.728 90.932 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 1bae4df5-8fae-43d3-9f75-0ef9f2f172dd)
+    (property "Reference" "R7" (id 0) (at 236.728 85.852 90))
+    (property "Value" "250" (id 1) (at 236.728 88.392 90))
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 236.728 92.71 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 236.728 90.932 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid de2924d0-4e8f-455a-8ffc-98fb8264ec90))
+    (pin "2" (uuid 679151d5-31e5-4196-ac0d-74aa0657242e))
+  )
+
   (symbol (lib_id "Switch:SW_MEC_5G_2LED") (at 248.666 54.356 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1c6659a4-2dea-419c-948f-9f7a5c9928a8)
@@ -3895,6 +3910,9 @@
     )
     (path "/70d9f062-0262-44d1-a202-a63bbbd472f6"
       (reference "R6") (unit 1) (value "250") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/1bae4df5-8fae-43d3-9f75-0ef9f2f172dd"
+      (reference "R7") (unit 1) (value "250") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/3b6d9501-e58a-4bc4-aa68-88a2e8c6b7ff"
       (reference "R8") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
