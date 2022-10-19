@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MBED-LPC1768
+D ARM mbed LPC1768 Module
+K
+F https://os.mbed.com/platforms/mbed-LPC1768/
+$ENDCMP
+#
+#End Doc Library
